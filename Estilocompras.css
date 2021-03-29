@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+body {
+    background-image: url(IMGC/fondoblanco.jpg);
+    margin-top: 10px;
+    margin-block-end: 10px;
+   }
+
+header{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 20px 0 0 0;
+    background: rgba(24, 23, 23, 0.527);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 30px 30px;
+}
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 10px;
+    color:grey;
+}
+div{
+    text-align: right;
+}
+section{
+margin-top: 4rem;
+margin-left: 30rem;
+margin-right: 25rem;
+display: grid;
+grid-template-columns: 40% 40% 20%;
+align-content: center;
+
+
+}
+article{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top:2rem ;
+    background: rgba(75, 73, 73, 0.233);
+    display: grid;
+    border-radius: 20px 20px;
+    align-content: center;
+    
+    
+}
+.articulos{
+    
+    margin-top:10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: rgba(75, 73, 73, 0.479);
+    border-radius: 20px 20px;
+    margin-left: auto;
+}
+li{
+    list-style-type: circle;
+    line-height: 30px;
+
+}
+
+.imgarticulo
+{
+    width:200px;
+    height:200px;
+    
+}
+.imgarticulo:hover
+{
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+}
+h2{
+    color: white;
+}
+.estiloo
+{
+    background: rgb(0, 0, 0);
+    border-radius: 20px 20px;
+    cursor: pointer;
+    margin-left: auto;
+    width:185px;
+    height:40px;
+    margin-bottom: 4px;
+}
+
+.estiloo:hover
+{
+    background-color:red;
+}
+.botoncompra
+{
+    background: rgb(0, 0, 0);
+    border-radius: 20px 20px;
+    cursor: pointer;
+    margin-left: auto;
+    width:250px;
+    height:40px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.botoncompra:hover
+{
+    background-color: rgb(7, 189, 37);
+}
+
+.finalpagi{
+    display: grid;
+    grid-template-columns: 32% 36% 32% ;
+    align-content: center;
+    margin: auto;
+}
+.imgfinal{
+
+    width:160px;
+    height:150px;
+}
+.centrarr{
+    text-align: center;
+}
