@@ -7,6 +7,7 @@ body {
     background-image: url(IMGC/fondoblanco.jpg);
     margin-top: 10px;
     margin-block-end: 10px;
+  
    }
 
 header{
@@ -27,6 +28,7 @@ h2{
 }
 div{
     text-align: right;
+    box-shadow: inset 5px 5px 20px 5px #CCCCCC;
 }
 section{
 margin-top: 4rem;
@@ -38,7 +40,7 @@ align-content: center;
 
 
 }
-article{
+form{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     margin-left: 10rem;
@@ -99,7 +101,7 @@ h2{
 }
 .botoncompra
 {
-    background: rgb(0, 0, 0);
+    background: rgb(255, 4, 4);
     border-radius: 20px 20px;
     cursor: pointer;
     margin-left: auto;
@@ -123,6 +125,7 @@ h2{
 
     width:160px;
     height:150px;
+    
 }
 .centrarr{
     text-align: center;
