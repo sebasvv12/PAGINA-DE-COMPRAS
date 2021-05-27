@@ -43,10 +43,10 @@ function info() {
         Oppo = "<h4>" + document.suscripcion.Oppo.value + "</h4>";
         }
      else { Oppo = "" }
-     if (document.suscripcion.Oppo.checked == true) {
+     if (document.suscripcion.Huawey.checked == true) {
         Huawey = "<h4>" + document.suscripcion.Huawey.value + "</h4>";
         }
      else { Huawey = "" }
    // console.log(deportes + noticias + economia + cultura + medioambiente)
-    texto.innerHTML += deportes + noticias + economia + cultura + medioambiente + iphone + lg +note +Oppo +Huawey
+    texto.innerHTML += deportes + noticias + economia + cultura + medioambiente + iphone + lg +note + Oppo + Huawey
    }
